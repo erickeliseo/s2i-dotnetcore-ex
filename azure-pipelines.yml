@@ -19,6 +19,6 @@ steps:
 - task: oc-cmd@2
   inputs:
     connectionType: 'OpenShift Connection Service'
-    openshiftService: 'default'
+    openshiftService: 'demo'
     cmd: 'oc new-project azure'
     
