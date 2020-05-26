@@ -20,5 +20,5 @@ steps:
   inputs:
     connectionType: 'OpenShift Connection Service'
     openshiftService: 'default'
-  - script: |
-      oc new-project azure-devops
+- script: |
+    oc new-project azure-devops
