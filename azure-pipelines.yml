@@ -13,9 +13,7 @@ pool:
 variables:
   buildConfiguration: 'Release'
 
-steps:
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
+
 - task: oc-cmd@2
   inputs:
     connectionType: 'OpenShift Connection Service'
