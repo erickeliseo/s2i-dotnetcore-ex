@@ -6,6 +6,13 @@
 trigger:
 - master
 
+- task: oc-setup@2
+  inputs:
+    connectionType: 'OpenShift Connection Service'
+    openshiftService: 'default'
+
+
+
 pool:
   vmImage: 'ubuntu-latest'
 
