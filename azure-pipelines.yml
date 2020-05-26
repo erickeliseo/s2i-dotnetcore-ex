@@ -20,5 +20,5 @@ steps:
   inputs:
     connectionType: 'OpenShift Connection Service'
     openshiftService: 'default'
-    cmd: 'oc new-app https://github.com/lstocchi/nodejs-ex -l name=demoapp'
+    cmd: 'oc new-project azure'
     
